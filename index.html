@@ -2,22 +2,173 @@
 layout: default
 ---
 
-<div class="home">
+<section class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <div id="about-me">
+        <h2>About Me</h2>
+        <p class="lead">My name is Jack Wu. I come from Beijing, China.</p>
+        <p class="lead">
+          I have been in New Zealand for 5 years.
+          I did my Master's Degree (Information Science) at Otago Uni.
+          Currently I am working for Figured as a Senior Software Developer.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div id="me"></div>
+    </div>
+  </div>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<hr class="featurette-divider">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="container">
+  <div class="row">
+    <h2>Eduction</h2>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="img-cut"> <%= image_tag "otago.png", :id => "otato" %> </div>
+      <h6>2010 - 2012</h6>
+      <p> Master of Information Science Otago Uni </p>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="img-cut"> <%= image_tag "scau.png", :id => "scau" %> </div>
+      <h6>2004 - 2008</h6>
+      <p> Bachelor Degree of Computer Science SCAU Uni </p>
+    </div>
+  </div>
+</section><!-- /.container -->
 
-</div>
+<hr class="featurette-divider">
+
+<section class="container">
+  <div class="row">
+    <h2>Working Experiences</h2>
+
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="img-cut"> <%= image_tag "hsbc.png", :id => "hsbc" %> </div>
+      <h6>2009 - 2010</h6>
+      <p> Java Developer </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="img-cut"> <%= image_tag "nzx.png", :id => "nzx" %> </div>
+      <h6>2013 - 2014</h6>
+      <p> NZX, Ruby on Rails Analyist </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="img-cut"> <%= image_tag "figured.png", :id => "figured" %> </div>
+      <h6>2014 - Current</h6>
+      <p> Figured, Senior Developer </p>
+    </div>
+  </div>
+</section><!-- /.container -->
+
+<hr class="featurette-divider">
+
+<!-- START THE FEATURETTES -->
+<section class="container-wrapper features">
+  <div class="container">
+
+    <div class="row featurette">
+      <h2> Ruby on Rails<span class="text-muted"> Full stack development </span></h2>
+
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <h5>Front-end Development</h5>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> Experienced in CSS, SCSS. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in implementing and applying Pattern Library. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in pure JavaScript, jQuery. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in Front-end MVC frameworks - <strong>AngularJS</strong>, <strong>BackboneJS</strong>.</li>
+          <li> <i class="fa fa-diamond"></i> Experienced in CoffeeScript. </li>
+          <li> <i class="fa fa-diamond"></i> Able to Create <strong> Real Responsive Design </strong>. </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <h5>Back-end Development</h5>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> Experienced in tweaking complex Database Query (<strong>PostgreSQL</strong>, Oracle). </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in bootstrping scale <strong>JSON API</strong>. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in optimizing caching efficiency. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in implementing highly costomized Capistrano 3 deploy scripts. <strong><a href="https://github.com/xuwupeng2000/capsitrano-scm-gitcopy">My Work: capsitrano-scm-gitcopy</a></strong> </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in event-driven Rake application. </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in <strong>Real World Software Engineering</strong>. </li>
+          <li> <i class="fa fa-diamond"></i> Depth knowledge of Networking security And Application security. </li>
+          <li> <i class="fa fa-diamond"></i> Depth knowledge of Software Engineering, Agile methods, MVC, OOA, TDD. </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row featurette">
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <h5>Upgrading RoR</h5>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> One of the few professionals know how to <strong>Upgrade complex RoR system.</strong> </li>
+          <li> <i class="fa fa-diamond"></i> Managed to upgrade couple enterprise applications from Ruby 1.8 to Ruby 1.9, from Rails 3.0 to Rails 3.2. </li>
+          <li> <i class="fa fa-diamond"></i> Have so many experiences with <strong>RSpec and Cucumber</strong>. </li>
+          <li> <i class="fa fa-diamond"></i> Able to create sophisticated specs to target the most complex scenarios. </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 col-lg-6 col-sm-12col-md-6">
+        <h5>Warden Warrior</h5>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> Been designing and implementing enterprise-level authentication & authentication system. </li>
+          <li> <i class="fa fa-diamond"></i> Know everything about Warden Gem and customized authentication strategies. </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="featurette-divider">
+
+<section class="container-wrapper bg-darker">
+  <div class="container">
+    <div class="row featurette">
+
+      <div class="col-md-8 col-lg-8 col-sm-12">
+        <h2 class="featurette-heading"> Android Development <span class="text-muted"> Real word application </span></h2>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> Experienced in Java, from Jave Core, Java EE to Android </li>
+          <li> <i class="fa fa-diamond"></i> Able to implement complex algorithms from scratch eg: <strong>DB4, Haar Wavelet Transform</strong>, FFT Transform, SVM Classifier and KNN Classifier </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-lg-4 col-sm-12">  <%= image_tag "java.png", id: "java" %> </div>
+
+    </div>
+  </div>
+</section>
+
+
+<hr class="featurette-divider">
+
+<section class="container-wrapper">
+  <div class="container">
+    <div class="row featurette">
+
+      <div class="col-md-4 col-lg-4 col-sm-12"> <%= image_tag "cl.png", id: "cl" %> </div>
+
+      <div class="col-md-8 col-lg-8 col-sm-12">
+        <h2 class="featurette-heading"> OpenCl <span class="text-muted"> Advanced understanding of Computer Science </span></h2>
+        <ul class="skills">
+          <li> <i class="fa fa-diamond"></i> Experienced in C, OpenCL </li>
+          <li> <i class="fa fa-diamond"></i> Depth knowledge of Parallel Computing, Concurrent Programming and <strong>GPUGPU Programming</strong> </li>
+          <li> <i class="fa fa-diamond"></i> Depth knowledge of Exact String Matching </li>
+          <li> <i class="fa fa-diamond"></i> Experienced in <strong>Shell scripting</strong>. </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="featurette-divider">
+<!-- /END THE FEATURETTES -->

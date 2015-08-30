@@ -3,10 +3,10 @@
 ---
 @charset "utf-8";
 
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -50,3 +50,73 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+hr.featurette-divider {
+  margin-top: 36px;
+  margin-bottom: 36px
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100%;
+}
+
+small, .small {
+  font-size: 70%;
+  line-height: 2.067;
+}
+
+
+.lead {
+  font-size:16px;
+}
+
+h1, .h1 {
+  font-size: 40px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 26px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.72222;
+  margin: 0 0 15px;
+}
+
+.features {
+  h5 {
+    text-align: right;
+    padding-bottom:14px;
+    border-bottom: 1px solid #e74c3c;
+  }
+}
+
+section {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
