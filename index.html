@@ -28,15 +28,19 @@ layout: default
     <h2>Eduction</h2>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="img-cut"> <%= image_tag "otago.png", :id => "otato" %> </div>
-      <h6>2010 - 2012</h6>
-      <p> Master of Information Science Otago Uni </p>
+      <div class="img-cut"> <img src='images/otago.png'/> </div>
+      <div class='block'>
+        <h6>2010 - 2012</h6>
+        <p> Master of Information Science Otago Uni </p>
+      </div>
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="img-cut"> <%= image_tag "scau.png", :id => "scau" %> </div>
-      <h6>2004 - 2008</h6>
-      <p> Bachelor Degree of Computer Science SCAU Uni </p>
+      <div class="img-cut" id='scau'> <img src='images/scau.png'/> </div>
+      <div class="block">
+        <h6>2004 - 2008</h6>
+        <p> Bachelor Degree of Computer Science SCAU Uni </p>
+      </div>
     </div>
   </div>
 </section><!-- /.container -->
@@ -47,22 +51,40 @@ layout: default
   <div class="row">
     <h2>Working Experiences</h2>
 
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <div class="img-cut"> <%= image_tag "hsbc.png", :id => "hsbc" %> </div>
-      <h6>2009 - 2010</h6>
-      <p> Java Developer </p>
+    <div class="class">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="img-cut"> <img src='images/hsbc.png'/> </div>
+        <div class="block">
+          <h6>2009 - 2010</h6>
+          <p> Java Developer </p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="img-cut" id='nzx'> <img src='images/nzx.png'/> </div>
+        <div class="block">
+          <h6>2013 - 2014</h6>
+          <p> NZX, Ruby on Rails Analyist </p>
+        </div>
+      </div>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <div class="img-cut"> <%= image_tag "nzx.png", :id => "nzx" %> </div>
-      <h6>2013 - 2014</h6>
-      <p> NZX, Ruby on Rails Analyist </p>
-    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="img-cut"> <img src='images/figured.png'/> </div>
+        <div class='block'>
+          <h6>2014 - 2015</h6>
+          <p> Figured, Senior Developer </p>
+        </div>
+      </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <div class="img-cut"> <%= image_tag "figured.png", :id => "figured" %> </div>
-      <h6>2014 - Current</h6>
-      <p> Figured, Senior Developer </p>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="img-cut"> <img src='images/thundermaps.png'/> </div>
+        <div class='block'>
+          <h6>Current</h6>
+          <p> ThunderMaps, Senior Developer </p>
+        </div>
+      </div>
     </div>
   </div>
 </section><!-- /.container -->
@@ -141,7 +163,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="col-md-4 col-lg-4 col-sm-12">  <%= image_tag "java.png", id: "java" %> </div>
+      <div class="col-md-4 col-lg-4 col-sm-12"> <img src='images/java.png'/> </div>
 
     </div>
   </div>
@@ -154,7 +176,7 @@ layout: default
   <div class="container">
     <div class="row featurette">
 
-      <div class="col-md-4 col-lg-4 col-sm-12"> <%= image_tag "cl.png", id: "cl" %> </div>
+      <div class="col-md-4 col-lg-4 col-sm-12"> <img src='images/cl.png'/> </div>
 
       <div class="col-md-8 col-lg-8 col-sm-12">
         <h2 class="featurette-heading"> OpenCl <span class="text-muted"> Advanced understanding of Computer Science </span></h2>
