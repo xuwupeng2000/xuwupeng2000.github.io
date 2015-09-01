@@ -86,10 +86,6 @@ ul {
   padding-top:10%;
 }
 
-.fa {
-  padding-right: 6px;
-}
-
 #me {
   height: 280px;
   width: 280px;
@@ -108,5 +104,15 @@ ul {
 
   &:hover {
     color: #8e44ad;
+  }
+}
+
+.skills {
+  li {
+    margin-left: 36px;
+  }
+
+  .fa {
+    margin-left: -24px;
   }
 }
