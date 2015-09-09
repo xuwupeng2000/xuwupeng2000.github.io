@@ -116,3 +116,9 @@ ul {
     margin-left: -24px;
   }
 }
+
+@media (max-width: 480px) {
+  .block {
+    margin-left: 15px;
+  }
+}
