@@ -1,0 +1,27 @@
+.timeline-container {
+  display: flex;
+}
+
+.timeline-left-side {
+  .timeline-wrapper {
+    text-align: right;
+    padding-right: 48px;
+  }
+
+}
+
+.timeline-right-side {
+  border-left: .3rem solid #9b4dca !important;
+  .timeline-wrapper {
+    padding-left: 48px;
+  }
+}
+
+.more-margin {
+  margin-top: 128px !important;
+}
+
+.timeline-time {
+  span {
+  }
+}
