@@ -10,7 +10,6 @@
   .timeline-wrapper {
     text-align: right;
   }
-
 }
 
 .timeline-right-side {
@@ -31,5 +30,17 @@
 .timeline-time {
   span {
     padding: 0 48px;
+  }
+}
+
+.desktop-only {
+  @media (max-width: 40rem) {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  @media (min-width: 40rem) {
+    display: none !important;
   }
 }
