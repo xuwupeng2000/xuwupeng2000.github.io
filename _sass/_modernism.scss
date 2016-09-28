@@ -101,8 +101,12 @@ ul {
   }
 }
 
+ul {
+  list-style: none;
+}
+
 .skills {
-  li {
+  ul {
     list-style: none;
   }
 }
