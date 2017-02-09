@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<section class="container only-print">
+  <div class="row">
+    <div class="column">
+      <p> J.W PRINT WITH STYLE</p> 
+      <p> PRINT WITH STYLE J.W</p> 
+    </div>
+  </div>
+</section>
 
 <section class="container">
   <div class="row">
@@ -27,17 +35,19 @@ layout: default
         </p>
       </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 not-print">
       <div id="me"></div>
     </div>
   </div>
 </section>
 
-<div class="container mobile-only more-margin">
-    <h2>Education</h2>
+<div class="container mobile-only print-consice">
+    <div class="row">
+      <h2>Education</h2>
+    </div>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut" id='scau'> <img src='images/scau.png'/> </div>
+        <div class="img-cut not-print" id='scau'> <img src='images/scau.png'/> </div>
         <div class="block">
           <h6>2004 - 2008</h6>
           <p> Bachelor Degree of Computer Science SCAU Uni </p>
@@ -47,7 +57,7 @@ layout: default
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut"> <img src='images/otago.png'/> </div>
+        <div class="img-cut not-print"> <img src='images/otago.png'/> </div>
         <div class='block'>
           <h6>2010 - 2012</h6>
           <p> Master of Information Science Otago Uni </p>
@@ -59,7 +69,7 @@ layout: default
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut"> <img src='images/hsbc.png'/> </div>
+        <div class="img-cut not-print"> <img src='images/hsbc.png'/> </div>
         <div class="block">
           <h6>2009 - 2010</h6>
           <p> Java Developer </p>
@@ -67,7 +77,7 @@ layout: default
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut" id='nzx'> <img src='images/nzx.png'/> </div>
+        <div class="img-cut not-print" id='nzx'> <img src='images/nzx.png'/> </div>
         <div class="block">
           <h6>2013 - 2014</h6>
           <p> NZX, Ruby on Rails Analyist </p>
@@ -77,7 +87,7 @@ layout: default
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut"> <img src='images/figured.png'/> </div>
+        <div class="img-cut not-print"> <img src='images/figured.png'/> </div>
         <div class='block'>
           <h6>2014 - 2015</h6>
           <p> Figured, Senior Developer </p>
@@ -85,7 +95,7 @@ layout: default
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut"> <img src='images/thundermaps.png'/> </div>
+        <div class="img-cut not-print"> <img src='images/thundermaps.png'/> </div>
         <div class='block'>
           <h6>2015.08 - 2016.01</h6>
           <p> ThunderMaps, Senior Developer </p>
@@ -95,14 +105,13 @@ layout: default
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="img-cut"> <img src='images/nzx.png'/> </div>
+        <div class="img-cut not-print"> <img src='images/nzx.png'/> </div>
         <div class='block'>
           <h6>Current</h6>
           <p> NZX, Senior Developer </p>
         </div>
       </div>
     </div>
-
   </div>
 
 </div>
@@ -157,7 +166,6 @@ layout: default
     </div>
 
     <div id="timeline" class="column timeline-right-side">
-
       <div class="timeline-wrapper more-margin">
         <h2 class="timeline-time"><span>2010-2012</span></h2>
         <dl class="timeline-series">
@@ -191,18 +199,15 @@ layout: default
         </dl>
       </div>
     </div>
-
   </div>
 </div>
 
 <!-- START THE FEATURETTES -->
 <section class="container-wrapper features">
   <div class="container">
-    <div class="row featurette">
-      <h2> Full stack Web development </h2>
-    </div>
-    <div class="row featurette">
+    <div class="row featurette"> <h2> Full stack Web development </h2> </div>
 
+    <div class="row featurette">
       <div class="column">
         <h5>Frontend Development</h5>
         <ul class="skills">
@@ -233,9 +238,7 @@ layout: default
           <li> <i class="fa fa-diamond"></i> Experienced in designing and implementing enterprise-level authentication & authentication system. </li>
         </ul>
       </div>
-
     </div>
-
   </div>
 </section>
 
@@ -255,7 +258,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="column"> <img src='images/cordova.png'/> </div>
+      <div class="column not-print"> <img src='images/cordova.png'/> </div>
 
     </div>
   </div>
@@ -268,9 +271,9 @@ layout: default
   <div class="container">
     <div class="row featurette">
 
-      <div class="column"> <img src='images/cl.png'/> </div>
+      <div class="column not-print"> <img src='images/cl.png'/> </div>
 
-      <div class="column">
+      <div class="column ">
         <h2 class="featurette-heading">Advanced understanding of Computer Science</h2>
         <ul class="skills">
           <li> <i class="fa fa-diamond"></i> Depth knowledge of Parallel Computing, Concurrent Programming and <strong>GPUGPU Programming</strong> </li>
