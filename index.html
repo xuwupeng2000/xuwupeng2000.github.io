@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<section class="bg-washed-blue">
+
+<script src="js/wow.min.js"></script>
+<section class="bg-washed-blue vh-100">
   <div class="container">
     <div class="row mt5">
       <div class="column">
         <div class="flex flex-column items-enter justify-center">
-          <h1 class="pa0 ma0 w-100 f-big-1 tr">Jack</h1>
-          <h1 class="pa0 ma0 w-100 f-big-1 tr">Wu</h1>
+          <h1 class="pa0 ma0 w-100 f-big-1 tr wow bounceInDown">Jack</h1>
+          <h1 class="pa0 ma0 w-100 f-big-1 tr wow bounceInUp">Wu</h1>
         </div>
       </div>
       <div class="column">
@@ -27,7 +29,8 @@ layout: default
   <div class="container">
     <div class="row timeline-container">
       <div id="timeline" class="column timeline-left-side">
-        <h2 class="timeline-time" ><span>2018.Mar- Present</span></h2>
+        <h2 class="timeline-time wow pulse"><span>2018.Mar- Present</span></h2>
+
 
         <dl class="timeline-series">
           <dt class="timeline-event" id="2015last"></dt>
@@ -58,7 +61,7 @@ layout: default
         </dl>
 
         <div class="more-margin" data-rellax-speed='1'>
-          <h2 class="timeline-time" data-rellax-speed='2'><span>2017.06-2018.01</span></h2>
+          <h2 class="timeline-time wow pulse" data-rellax-speed='2'><span>2017.06-2018.01</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event"></dt>
             <dd class="timeline-event-content">
@@ -74,7 +77,7 @@ layout: default
         </div>
 
         <div class="more-margin rellax" data-rellax-speed='2'>
-          <h2 class="timeline-time rellex" data-rellax-speed='2'><span>2015-2016</span></h2>
+          <h2 class="timeline-time wow pulse rellex" data-rellax-speed='2'><span>2015-2016</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event" id="2015last"></dt>
             <dd class="timeline-event-content" id="2015lastEX">
@@ -92,7 +95,7 @@ layout: default
         </div>
 
         <div class="more-margin rellax" data-rellax-speed='2'>
-          <h2 class="timeline-time rellex" data-rellax-speed='1'><span>2013-2014</span></h2>
+          <h2 class="timeline-time wow pulse rellex" data-rellax-speed='1'><span>2013-2014</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event" id="2013"></dt>
             <dd class="timeline-event-content" id="2013EX">
@@ -109,7 +112,7 @@ layout: default
 
       <div id="timeline" class="column timeline-right-side">
         <div class="more-margin" data-rellax-speed='3'>
-          <h2 class="timeline-time" data-rellax-speed='2'><span>2017.Dec-2018.Mar</span></h2>
+          <h2 class="timeline-time wow pulse" data-rellax-speed='2'><span>2017.Dec-2018.Mar</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event" id="2015last"></dt>
             <dd class="timeline-event-content" id="2015lastEX">
@@ -129,7 +132,7 @@ layout: default
         </div>
 
         <div class="timeline-wrapper more-margin rellax" data-rellax-speed='2'>
-          <h2 class="timeline-time rellex" data-rellax-speed='2'><span>2016.02-2017.06</span></h2>
+          <h2 class="timeline-time wow pulse rellex" data-rellax-speed='2'><span>2016.02-2017.06</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event" id="current"></dt>
             <dd class="timeline-event-content" id="currentEX">
@@ -155,7 +158,7 @@ layout: default
         </div>
 
         <div class="timeline-wrapper more-margin rellax" data-rellax-speed='2'>
-          <h2 class="timeline-time rellex" data-rellax-speed='1'><span>2014-2015</span></h2>
+          <h2 class="timeline-time wow pulse rellex" data-rellax-speed='1'><span>2014-2015</span></h2>
           <dl class="timeline-series">
             <dt class="timeline-event" id="2014"></dt>
             <dd class="timeline-event-content" id="2014EX">
@@ -173,9 +176,9 @@ layout: default
         <div class="more-margin"> </div>
 
         <div class="timeline-wrapper more-margin rellax" data-rellax-speed='2'>
-          <h2 class="timeline-time rellex" data-rellax-speed='2'><span>2018.Mar- Present</span></h2>
+          <h2 class="timeline-time wow pulse rellex" data-rellax-speed='2'><span>2018.Mar- Present</span></h2>
           <dl class="timeline-series">
-            <h2 class="timeline-time"><span>2004-2008</span></h2>
+            <h2 class="timeline-time wow pulse"><span>2004-2008</span></h2>
             <dt class="timeline-event" id="2012"></dt>
             <dd class="timeline-event-content" id="2012EX">
               <div class="img-cut"> <img src='images/otago.png'/> </div>
@@ -233,7 +236,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="column not-print"> <img src='images/react-native.png'/> </div>
+      <div class="column not-print"> <img class="wow pulse" src='images/react-native.png'/> </div>
     </div>
   </div>
 </section>
@@ -245,7 +248,7 @@ layout: default
   <div class="container">
     <div class="row featurette">
 
-      <div class="column not-print"> <img src='images/cl.png'/> </div>
+      <div class="column not-print"> <img class="wow pulse" src='images/cl.png'/> </div>
 
       <div class="column ">
         <h2 class="featurette-heading">Advanced understanding of Computer Science</h2>
@@ -270,4 +273,5 @@ layout: default
 
   ga('create', 'UA-94026201-1', 'auto');
   ga('send', 'pageview');
+  new WOW().init();
 </script>
