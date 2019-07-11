@@ -8,24 +8,14 @@ hr.featurette-divider {
   margin-bottom: 36px
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  min-height: 100%;
-}
-
 small, .small {
   font-size: 70%;
   line-height: 2.067;
 }
 
-
-.lead {
-  font-size:16px;
-}
-
 section {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 5.56em;
+  padding-bottom: 5.56em;
 }
 
 ul {
@@ -114,4 +104,17 @@ ul {
 
 .ivhq-img {
   width: "32rem";
+}
+
+.f-big-1 {
+  font-size: 5.89em;
+}
+
+.bg-of-me {
+  background-image: url("../images/bg-of-me.jpg");
+}
+
+.gl-bg {
+  background-color: $h-royal-blue;
+  background-image: linear-gradient( to bottom right, $h-slate-blue 15%, transparent);
 }
