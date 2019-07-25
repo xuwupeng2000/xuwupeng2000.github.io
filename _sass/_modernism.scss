@@ -86,7 +86,6 @@ ul {
 
 .features {
   h5 {
-    text-align: right;
     padding-bottom:14px;
     border-bottom: 1px solid #e74c3c;
   }
@@ -110,11 +109,39 @@ ul {
   font-size: 5.89em;
 }
 
-.bg-of-me {
-  background-image: url("../images/bg-of-me.jpg");
-}
-
 .gl-bg {
   background-color: $h-royal-blue;
   background-image: linear-gradient( to bottom right, $h-slate-blue 15%, transparent);
+}
+
+.vh-60 {
+  height: 60vh;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
+#ruby-bg {
+  background-image: url("../images/ruby.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#webpack-bg {
+  background-image: url("../images/webpack.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+#react-bg {
+  background-image: url("../images/react.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+#palm-bg {
+  background-image: url("../images/palm.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
