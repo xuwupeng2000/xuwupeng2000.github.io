@@ -67,6 +67,7 @@ figcaption {
  * Lists
  */
 ul, ol {
+    list-style: disc;
     margin-left: $spacing-unit;
 }
 
@@ -84,7 +85,6 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 
